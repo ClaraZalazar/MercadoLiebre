@@ -106,3 +106,16 @@ footer .copyright {
         display: none;
     }
 }
+/* DESK */
+@media (min-width:1000px){
+/* FOOTER */
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer .seccion-metodos{
+        width: 30%;
+    }
+}
+
